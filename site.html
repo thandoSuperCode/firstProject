@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Lock Showecase</title>
+<Style>
+    body{
+        background-image: url(Screenshot\ \(95\).png);
+    }
+   
+    .banner-container{
+        
+        
+        padding: 10px;
+        text-align: center ;
+        border: 100px;
+        border-radius: 10px;
+        box-shadow: blue 1px 0 100px;
+        text-shadow: rgb(64, 4, 160) 1px 0 10px;
+        color: rgb(3, 129, 246) ;
+        background-image: url(download.jpeg);
+        
+        
+        
+        
+        
+    }
+    .content-container{
+        display:flex;
+        flex-direction: row;
+        column-gap: 20px;
+        
+        
+
+
+
+
+    }
+
+    .video-class{
+        
+        border-radius: 20px;
+        width: 960px;
+        height: 540px;
+
+
+    }
+    .survey-container{
+        
+     
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(2, 13, 33);
+        width: 300px;
+        color: aliceblue;
+        
+    }
+
+    .survey-content{
+        display:flex;
+        flex-direction:column;
+
+    }
+    
+    label {
+        width: 100px;
+        
+    }
+    input [type="text"]{
+        border-radius: 10px;
+    }
+    
+    input [type = "range"]{
+        color:black;
+
+
+
+    }
+    .About-container{
+        padding: 10px;
+        box-shadow:blue 1px 0 10px;
+        border-radius: 10px;
+        width:960px;
+    }
+
+</Style>
+
+
+
+
+</head>
+
+<body>
+    
+    <div class="banner-container">
+        
+        <h1>BLUE LOCK: EPISODE NAGI</h1>
+            <h2>PREMIER SHOWCASE</h2>
+    </div>
+
+    <div class="content-container" >
+        <div>
+            <video controls loop class="video-class">
+                <source src="blue lock episode nagi.mp4" type="video/mp4">
+    
+            </video>
+
+        </div>
+
+        <div  class = "survey-container">
+            <u><h2 >SURVEY</h2></u>
+
+            <div class = "survey-content">
+                <label for="Name">Name: </label>
+                <input type="text" id ="Name" name = "Name">
+
+
+            </div>
+
+            <div class = "survey-content">
+                <lable for = "Last_name">Last Name: </lable>
+                <input type = "text" id = "Last_name" name = "Last_name">
+
+            </div>
+
+            <div class="survey-content">
+                <label for = "Age">Age: </label>
+                <input type="text" id="Age" name="name">
+
+            </div>
+
+            <div class="survey-content">
+                <label for="Review">Review: </label>
+                <input type="text" id="Review" name="Review" style="height: 200px;">
+
+            </div>
+
+            <div class="survey-content">
+                <label for ="Rating">Rating</label>
+                <P>0<input type="range" id ="Rating" name="Rating" style="color: blue;">10</P>
+
+
+            </div>
+
+
+        </div>
+        
+
+
+    </div>
+    <div class="About-container">
+        <u><h1>ABOUT</h1></u>
+        <b><p style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            An anime character holding a soccer ball in his hand and leaning on the ground to catch it
+            Blue Lock is a sports anime that centers around the intense world of soccer.
+            The series tells the story of a group of young soccer players who have been 
+            handpicked to participate in a unique training program called Blue Lock. 
+            The program is run by Ego Jinpachi, who intends to "destroy Japanese loser
+            football" by introducing a radical new training regimen.
+            The program isolates 300 young forwards in a prison-like institution called
+             "Blue Lock" and puts them through rigorous training aimed at creating 
+             "the world's greatest egotist striker".
+            </p></b>
+
+
+
+    </div>
+</body>
+</html>
